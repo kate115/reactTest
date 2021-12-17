@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function Introduction() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, friend. I'm Star! Don't you think it's
+          lonely out here in space? I want to visit 
+          you some day! Imagine a place where we could
+          live together in peace! That would be the best!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Not Learn React
-        </a>
+        
       </header>
     </div>
   );
 }
 
-export default App;
+export default Introduction;
